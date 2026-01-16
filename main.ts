@@ -1,4 +1,5 @@
 input.onGesture(Gesture.Shake, function () {
+    basic.showArrow(ArrowNames.North)
     basic.showNumber(6)
     basic.showIcon(IconNames.Yes)
     basic.showString("Hello!")
